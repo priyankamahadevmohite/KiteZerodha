@@ -49,6 +49,7 @@ public class LoginTest extends Baseclass {
 	{
 		ScreenShots s=new ScreenShots();
 		s.takescreenshot(driver,  "Login");
+		System.out.println("ScreenShot Captured");
 		//ScreenShots.Takescreenshot(driver, Login);
 		
 	}
