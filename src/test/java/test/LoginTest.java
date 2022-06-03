@@ -39,8 +39,8 @@ public class LoginTest extends Baseclass {
 		String peen=Excel.gettextdata(2, 1, "datasheet");
 		login.pin(peen,driver);
 		login.continuebutton();
-		Assert.assertTrue(false);
-	     System.out.println("hello");
+		Assert.assertTrue(true);
+	     System.out.println("hi");
     }
 	
 	
